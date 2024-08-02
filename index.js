@@ -20,19 +20,19 @@ app.get("/", (req, res) => {
       <ul>
   
       <li>
-      <h3><mark style="background-color:green">POST:</mark> Change the endpoint <mark style="background-color:green"> /api/student/create </mark> to Create a new student</h3>
+      <h3>POST: Change the endpoint <mark style="background-color:pink">  /api/student/create </mark> to Create a new student</h3>
       </li>
   
       <li>
-      <h3><mark>GET:</mark> Use the endpoint <mark> /api/student/students </mark> to Get all students</h3>
+      <h3>GET: Use the endpoint <mark style="background-color:pink"> /api/student/students </mark> to Get all students</h3>
       </li>
   
       <li>
-      <h3><mark style="background-color:lightblue">PUT:</mark> Change the endpoint <mark style="background-color:lightblue"> /api/student/assign/:id </mark> to Assign a mentor to a student</h3>
+      <h3>PUT:Change the endpoint <mark style="background-color:pink"> /api/student/assign/:id  </mark> to Assign a mentor to a student</h3>
       </li>
   
       <li>
-      <h3><mark>GET:</mark> Change the endpoint <mark> /api/student/get-particular/:id </mark> to Get the assigned mentor for a student</h3>
+      <h3>GET: Change the endpoint <mark style="background-color:light pink">  /api/student/get-particular/:id </mark> to Get the assigned mentor for a student</h3>
       </li>
   
       </ul>
@@ -45,19 +45,19 @@ app.get("/", (req, res) => {
   
   
       <li>
-      <h3><mark style="background-color:green">POST:</mark> Change the endpoint to <mark style="background-color:green"> /api/mentor/create </mark> to Create a new mentor</h3>
+      <h3>POST: Change the endpoint to <mark style="background-color:light blue"> /api/mentor/create </mark> to Create a new mentor</h3>
       </li>
   
       <li>
-      <h3><mark style="background-color:red">GET:</mark> Change the endpoint to <mark style="background-color:red"> /api/mentor/mentors </mark> to Get all mentors</h3>
+      <h3>GET:Change the endpoint to <mark style="background-color:light blue"> /api/mentor/mentors </mark> to Get all mentors</h3>
       </li>
   
       <li>
-      <h3><mark style="background-color:lightblue">PUT:</mark> Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/assign/:id </mark> to Assign students to a mentor</h3>
+      <h3>PUT: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/assign/:id </mark> to Assign students to a mentor</h3>
       </li>
   
       <li>
-      <h3><mark>GET:</mark> Change the endpoint to <mark style="background-color:yellow"> /api/mentor/ment-student/:id </mark> to Get students assigned to a specific mentor</h3>
+      <h3>GET: Change the endpoint to <mark style="background-color:light blue"> /api/mentor/ment-student/:id </mark> to Get students assigned to a specific mentor</h3>
       </li>
   
       </ul> 

@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
       </li>
   
       <li>
-      <h3>GET: Change the endpoint <mark style="background-color:light pink">  /api/student/get-particular/:id </mark> to Get the assigned mentor for a student</h3>
+      <h3>GET: Change the endpoint <mark style="background-color: pink">  /api/student/get-particular/:id </mark> to Get the assigned mentor for a student</h3>
       </li>
   
       </ul>
@@ -45,11 +45,11 @@ app.get("/", (req, res) => {
   
   
       <li>
-      <h3>POST: Change the endpoint to <mark style="background-color:light blue"> /api/mentor/create </mark> to Create a new mentor</h3>
+      <h3>POST: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/create </mark> to Create a new mentor</h3>
       </li>
   
       <li>
-      <h3>GET:Change the endpoint to <mark style="background-color:light blue"> /api/mentor/mentors </mark> to Get all mentors</h3>
+      <h3>GET:Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/mentors </mark> to Get all mentors</h3>
       </li>
   
       <li>
@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
       </li>
   
       <li>
-      <h3>GET: Change the endpoint to <mark style="background-color:light blue"> /api/mentor/ment-student/:id </mark> to Get students assigned to a specific mentor</h3>
+      <h3>GET: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/ment-student/:id </mark> to Get students assigned to a specific mentor</h3>
       </li>
   
       </ul> 

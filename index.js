@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
       <ul>
   
       <li>
-      <h3>POST: Change the endpoint <mark style="background-color:pink">  /api/student/create </mark> to Create a new student</h3>
+      <h3>POST: Change the endpoint <mark style="background-color:pink">  /api/student/create-student</mark> to Create a new student</h3>
       </li>
   
       <li>
@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
   
   
       <li>
-      <h3>POST: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/create </mark> to Create a new mentor</h3>
+      <h3>POST: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/create-mentor</mark> to Create a new mentor</h3>
       </li>
   
       <li>

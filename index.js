@@ -24,11 +24,11 @@ app.get("/", (req, res) => {
       </li>
   
       <li>
-      <h3>GET: Use the endpoint <mark style="background-color:pink"> /api/student/students </mark> to Get all students</h3>
+      <h3>GET: Use the endpoint <mark style="background-color:pink"> /api/student/ </mark> to Get all students</h3>
       </li>
   
       <li>
-      <h3>PUT:Change the endpoint <mark style="background-color:pink"> /api/student/assign/:id  </mark> to Assign a mentor to a student</h3>
+      <h3>PUT:Change the endpoint <mark style="background-color:pink"> /api/student/:id  </mark> to Assign a mentor to a student</h3>
       </li>
   
       <li>
@@ -49,11 +49,11 @@ app.get("/", (req, res) => {
       </li>
   
       <li>
-      <h3>GET:Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/mentors </mark> to Get all mentors</h3>
+      <h3>GET:Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/ </mark> to Get all mentors</h3>
       </li>
   
       <li>
-      <h3>PUT: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/assign/:id </mark> to Assign students to a mentor</h3>
+      <h3>PUT: Change the endpoint to <mark style="background-color:lightblue"> /api/mentor/:id </mark> to Assign students to a mentor</h3>
       </li>
   
       <li>

@@ -4,29 +4,18 @@ import Mentor from "../models/mentor.js";
 // ! Task 2
 // CREATE STUDENT
 
-export const createStudent = async (req, res) => {
+export const createStudent = async(req,res) => {
   try {
-    const { name, email, course } = req.body;
-    if (!name || !email || !course) {
-      return res
-        .status(400)
-        .json({ error: "Name,email and course fields are required" });
-    }
-    const existingStudent = await Student.findOne({ name });
-    if (existingStudent) {
-      return res.status(400).json({ error: "Student Name exists already" });
-    }
-
-    const newStudent = new Student(req.body);
-    await newStudent.save();
-    res
-      .status(200)
-      .json({ message: "Student created successfully", data: newStudent });
+     const students = new Student(req.body);
+     await students.save()
+     res.status(201).json({
+         message: "Student created Successfully",
+         data: students
+     })
   } catch (error) {
-    res.status(500).json({ message: "Internal server error" });
+     res.status(500).json({error: "Error in Create Student"})
   }
-};
-
+}
 // GET ALL STUDENTS
 export const getAllStudents = async (req, res) => {
   try {

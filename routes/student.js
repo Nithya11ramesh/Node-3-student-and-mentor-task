@@ -7,7 +7,7 @@ import {
   getPreviousMentor,
   getStudentById,
   updateStudentById,
-} from "../controllers/student.js";
+} from "../Controllers/student.js";
 
 const router = express.Router();
 
